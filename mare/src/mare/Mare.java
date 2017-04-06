@@ -15,7 +15,10 @@ public class Mare {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        barcagraphic finestra;
+        finestra = new barcagraphic();
+        finestra.setTitle("Naviga");
+        finestra.setVisible(true);
     }
     
 }
